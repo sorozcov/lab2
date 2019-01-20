@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" android:background="#F7E6CF">
+        tools:context=".MainActivity" android:background="#0AACDE">
 
     <TextView
             android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView"
             app:layout_constraintVertical_bias="0.962"/>
     <Button
-            android:text="Mostrar Menú"
+            android:text="Mostrar Menu"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:id="@+id/showMenu" android:backgroundTint="#F1F109"

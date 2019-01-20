@@ -2,7 +2,7 @@ package com.example.silvi.lab2restaurante
 
 interface MenuOrder {
 
-    val menuOrder: ArrayList<String> // Pedido
+    var myOrder: ArrayList<String> // Pedido
 
     fun clear() // Limpiar pedido
     fun add(element: String) // Agregar elemento
